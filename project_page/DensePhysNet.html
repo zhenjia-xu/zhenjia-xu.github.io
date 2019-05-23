@@ -23,35 +23,46 @@
         </div>
 
         <div class="content">
+          <div class="text">
+            <h3>Publication</h3>
+            <ul>
+              <li>
+              <div class="title"><a name="DensePhysNet_RSS">DensePhysNet: Learning Dense Physical Object Representations via Multi-step Dynamic Interactions</a></div>
+              <div class="authors">
+                <a href="http://zhenjiaxu.com/">Zhenjia Xu</a>,
+                <a href="http://jiajunwu.com/">Jiajun Wu</a>,
+                <a href="http://andyzeng.github.io/">Andy Zeng</a>,
+                <a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a>, and
+                <a href="http://shurans.github.io/">Shuran Song</a>
+              </div>
+              <div>
+                <span class="venue">RSS 2019</span>
+                <span class="tag"><a href="http://zhenjiaxu.com/paper/DensePhysNet_RSS.pdf">Paper</a></span>
+                <span class="tag"><a href="http://zhenjiaxu.com/bibtex/DensePhysNet_RSS.bib">BibTeX</a></span>
+              </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="content">
             <div class="text">
               <h3>Abstract</h3>
               <p>We study the problem of learning physical object representations for robot manipulation. Understanding object physics is critical for successful object manipulation, but also challenging because physical object properties can rarely be inferred from the object’s static appearance. In this paper, we propose DensePhysNet, a system that actively executes a sequence of dynamic interactions (e.g., sliding and colliding), and uses a deep predictive model over its visual observations to learn dense, pixel-wise representations that reflect the physical properties of observed objects. Our experiments in both simulation and real settings demonstrate that the learned representations carry rich physical information, and can directly be used to decode physical object properties such as friction and mass. The use of dense representation enables DensePhysNet to generalize well to novel scenes with more objects than in training. With knowledge of object physics, the learned representation also leads to more accurate and efficient manipulation in downstream tasks than the state-of-the-art.</p>
             </div>
           </div>
-  
-          <div class="content">
+
+          <div class="content project_headline">
+            <!-- <iframe width="720" height="405" aria-label="YouTube Video, Supplementary Material of ICLR Submission" src="./Parts, Structure, and Dynamics_files/LbUZo6ocDNI.html" frameborder="0" allowfullscreen=""></iframe> -->
+            
+            <video src="DensePhysNet_files/demo.m4v" width="800" controls="controls">
+            </video>
             <div class="text">
-              <h3>Publication</h3>
-              <ul>
-                <li>
-                <div class="title"><a name="DensePhysNet_RSS">DensePhysNet: Learning Dense Physical Object Representations via Multi-step Dynamic Interactions</a></div>
-                <div class="authors">
-                  <a href="http://zhenjiaxu.com/">Zhenjia Xu</a>,
-                  <a href="http://jiajunwu.com/">Jiajun Wu</a>,
-                  <a href="http://andyzeng.github.io/">Andy Zeng</a>,
-                  <a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a>, and
-                  <a href="http://shurans.github.io/">Shuran Song</a>
-                </div>
-                <div>
-                  <span class="venue">RSS 2019</span>
-                  <span class="tag"><a href="http://zhenjiaxu.com/paper/DensePhysNet_RSS.pdf">Paper</a></span>
-                  <span class="tag"><a href="http://zhenjiaxu.com/bibtex/DensePhysNet_RSS.bib">BibTeX</a></span>
-                </div>
-                </li>
-              </ul>
+              <p>Supplementary video for our setup, model, and results</p>
             </div>
           </div>
-
+          
         <div class="content project_headline">
           <div class="img" style="text-align:center;max-width:500px">
             <img class="img_responsive" src="./DensePhysNet_files/DensePhysNet.png" alt="DensePhysnet">
@@ -69,16 +80,6 @@
           <br>
           <div class="text">
             <p>Figure 2: DensePhysNet consists of five modules: (a) an image encoder, (b) a multi-step information aggregator, (c) an action encoder, (d) a cross convolutional layer, and (e) a motion predictor.</p>
-          </div>
-        </div>
-
-        <div class="content project_headline">
-          <!-- <iframe width="720" height="405" aria-label="YouTube Video, Supplementary Material of ICLR Submission" src="./Parts, Structure, and Dynamics_files/LbUZo6ocDNI.html" frameborder="0" allowfullscreen=""></iframe> -->
-          
-          <video src="DensePhysNet_files/demo.m4v" width="800" controls="controls">
-          </video>
-          <div class="text">
-            <p>Supplementary video for our setup, model, and results</p>
           </div>
         </div>
 
