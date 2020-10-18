@@ -21,6 +21,8 @@ div.authors a:visited{color:#777777}
 div.content a:hover,
 div.content a:hover div.text,
 div.ftsubheader a:hover{text-decoration:underline}
+#span.jw{color:#000000;font-weight:600;text-decoration:underline}
+span.jw{color:#000000;font-weight:600}
 span.author{white-space:nowrap}
 div.outercontainer{text-align:center}
 div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:760px}
@@ -30,7 +32,7 @@ div.header{line-height:50px}
 div.ftheader,div.ftsubheader{display:inline-block;color:#FFF}
 div.ftheader{float:left;padding-left:15px;font-size:1.17em}
 div.ftsubheader{float:right;padding-left:20px;padding-right:20px}
-div.outercontainer,div.content{padding-top:0px;padding-bottom:0px} 
+div.outercontainer,div.content{padding-top:0px;padding-bottom:0px}
 div.container,div.content{width:100%}
 div.body{margin-top:50px}
 div.content{margin-bottom:10px}
@@ -62,6 +64,6 @@ div.recruit{display:none}
 @media only screen and (min-width: 600px) {
     div.heading div.img{padding-right:calc(35px)}
     div.heading div.info{padding-right:calc(40% - 350px)}
-    div.publication div.img{width:20%}
+    div.publication div.img{width:23%}
     div.publication div.text{max-width:70%;text-align:left}
 }
