@@ -27,7 +27,7 @@ div.ftsubheader a:hover{text-decoration:underline}
 span.zx{text-decoration:underline}
 span.author{white-space:nowrap}
 div.outercontainer{text-align:center}
-div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display:inline-block;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:760px}
+div.header,div.container,div.content,div.img,div.text{display:inline-block;zoom:1;display:inline-block;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle;max-width:860px}
 div.header,div.container{min-width:330px}
 div.img,div.text{padding-left:10px;padding-right:10px}
 div.header{line-height:50px}
@@ -51,7 +51,7 @@ span.venue,span.highlight,
 div.publication span.tag{padding-right:0px;font-size:100%}
 span.highlight,
 span.highlight a:link,
-span.highlight a:visited{color:#BB2222}
+span.highlight a:visited{color:#fcbc3d; font-weight: bold}
 span.fullvenue{padding-left:8px}
 div.anchor{border-top:50px solid transparent;margin-top:-50px}
 div.recruit{display:none}
